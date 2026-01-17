@@ -4,6 +4,11 @@ public class Principal {
 public static void main(String[] args) {
 
     boolean salir = false;
+    double monto;
+    double resultado;
+    Cambios consulta;
+    Divisas divisas;
+    Conversiones conversion;
 
     while (!salir){
         System.out.println("******************************");
@@ -25,13 +30,13 @@ public static void main(String[] args) {
         switch (uso){
             case 1:
                 System.out.println("Ingrese el monto en COP:");
-                double monto = Opcion.nextDouble();
+                 monto = Opcion.nextDouble();
 
-                Cambios consulta = new Cambios();
-                Divisas divisas = consulta.cambioDivisa("COP");
+                 consulta = new Cambios();
+                 divisas = consulta.cambioDivisa("COP");
 
-                Conversiones conversion = new Conversiones();
-                double resultado = conversion.pesoColombianoADolar(
+                 conversion = new Conversiones();
+                 resultado = conversion.pesoColombianoADolar(
                         monto,
                         divisas.conversion_rates()
                 );
