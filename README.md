@@ -6,26 +6,26 @@ Este proyecto es un **conversor de monedas en Java** que consume una **API exter
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
-* 📡 **Consumo de API externa** de tasas de cambio (ExchangeRate API).
-* 🔄 **Conversión entre múltiples monedas**, entre ellas:
+*  **Consumo de API externa** de tasas de cambio (ExchangeRate API).
+*  **Conversión entre múltiples monedas**, entre ellas:
 
   * Peso Colombiano (COP)
   * Dólar Estadounidense (USD)
   * Peso Argentino (ARS)
   * Real Brasileño (BRL)
-* 🧠 **Conversión dinámica**: el usuario puede ingresar cualquier moneda base y moneda destino.
-* 🧾 **Menú interactivo por consola** usando `while` y `switch`.
-* ⌨️ **Ingreso de datos por teclado** con `Scanner`.
-* 🗺️ Uso de `Map<String, Double>` para manejar tasas de conversión.
-* 🧱 Uso de `record` para mapear la respuesta JSON de la API.
-* 🔠 Normalización de entrada (`toUpperCase`) para evitar errores por mayúsculas/minúsculas.
-* 🚪 Opción para **salir del programa** desde el menú.
+*  **Conversión dinámica**: el usuario puede ingresar cualquier moneda base y moneda destino.
+*  **Menú interactivo por consola** usando `while` y `switch`.
+*  **Ingreso de datos por teclado** con `Scanner`.
+*  Uso de `Map<String, Double>` para manejar tasas de conversión.
+*  Uso de `record` para mapear la respuesta JSON de la API.
+*  Normalización de entrada (`toUpperCase`) para evitar errores por mayúsculas/minúsculas.
+*  Opción para **salir del programa** desde el menú.
 
 ---
 
-## 🧩 Estructura del proyecto
+##  Estructura del proyecto
 
 * **Principal**: contiene el menú, el `switch` y la interacción con el usuario.
 * **Cambios**: se encarga de realizar la conexión con la API y obtener las tasas de cambio.
@@ -34,13 +34,13 @@ Este proyecto es un **conversor de monedas en Java** que consume una **API exter
 
 ---
 
-## 🛠️ Tecnologías usadas
+##  Tecnologías usadas
 
 
 
 
 
-## ▶️ Ejecución
+## Ejecución
 
 1. Ejecuta la clase `Principal`.
 2. Selecciona una opción del menú.
